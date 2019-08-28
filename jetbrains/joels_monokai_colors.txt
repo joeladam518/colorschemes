@@ -1,0 +1,58 @@
+# Main colors
+==================
+
+red:     #DC322C
+green:   #7bd88f
+blue:    #50AFFF
+cyan:    #78DCE8
+magenta: #fc618d
+yellow:  #E6DA74
+purple:  #948ae3
+orange:  #f59762
+
+-----------------------------------------------------------
+# Shades and Tints
+======================
+
+red
+    light:
+     dark:
+green
+    light:
+     dark:
+blue
+    light:
+     dark:
+cyan
+    light:
+     dark:
+magenta
+    light:
+     dark:
+yellow
+    light:
+     dark:
+purple
+    light:
+     dark:
+orange
+    light:
+     dark:
+
+-----------------------------------------------------------
+# Specials
+======================
+
+background: #222222
+variables:  #EFEFEF
+
+this:       #BAB6BO
+
+comments:   #808080
+            #777470
+            #45413a
+
+DocBlock
+    Comment:           #727072
+    Comment Highlight: #727072
+
