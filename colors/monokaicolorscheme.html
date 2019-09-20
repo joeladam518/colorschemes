@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monokai colorscheme</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./colorscheme.css">
+</head>
+<body>
+    <h1>Monokai colorscheme</h1>
+    <div id="color-pallete-container" class="container"></div>
+
+    <script type="text/javascript" charset="utf-8" defer>
+        const colorPalette = [
+            {
+                name: 'main colors',
+                color: [
+                    {
+                        name: 'red',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'deafult',
+                                color: '#DC322C',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'green',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#7bd88f'
+                            },
+                            {
+                                name: 'yellow green',
+                                color: '#B5BD68',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'blue',
+                        section_classes: ['row'],
+                        color: [ 
+                            {
+                                name: 'default',
+                                color: '#50AFFF',
+                            },
+                            {
+                                name: 'wierd blue 1',
+                                color: '#6897BB',
+                            },
+                            {
+                                name: 'wierd blue 2',
+                                color: '#82A5D7',
+                            },
+                        ]
+                    },
+                    {
+                        name: 'cyan',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#78DCE8',
+                            },
+                            {
+                                name: 'light',
+                                color: '#96E1EB',
+                            }
+                        ],
+                    },
+                    {
+                        name: 'pink',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#fc618d',
+                            },
+                            {
+                                name: 'redish pink',
+                                color: '#DC7878',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'yellow',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#E6DA74',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'purple',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#948ae3',
+                            },
+                            {
+                                name: 'redish purple',
+                                color: '#9876AA',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'orange',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#f59762',
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                name: 'other colors',
+                color: [
+                    {
+                        name: 'defaults',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'background',
+                                color: '#222222',
+                            },
+                            {
+                                name: 'default text',
+                                color: '#dddddd',
+                            },
+                            {
+                                name: 'template variable',
+                                color: '#F0C8C0',
+                            },
+                        ],    
+                    },
+                    {
+                        name: 'comment colors',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#777470',
+                            },
+                            {
+                                name: 'darker default',
+                                color: '#45413a',
+                            },
+                            {
+                                name: 'greyish',
+                                color: '#808080',
+                            },
+                            {
+                                name: 'todo',
+                                color: '#A9DC76',
+                            },
+                        ],    
+                    },
+                    {
+                        name: 'search',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'result write',
+                                color: '#532B2E', 
+                            },
+                            {
+                                name: 'result',
+                                color: '#155221', 
+                            },
+                            {
+                                name: 'text search',
+                                color: '#32593D', 
+                            },
+                        ],
+                    },
+                    {
+                        name: 'ide message colors',
+                        color: [
+                            {
+                                name: 'search result (write access)',
+                                color: '#532B2E',
+                            },
+                            {
+                                name: 'text search result',
+                                section_classes: ['row'],
+                                color: [
+                                    {
+                                        name: 'background',
+                                        color: '#32593D',
+                                    },
+                                    {
+                                        name: 'error stripe mark',
+                                        color: '#61936F',
+                                    },
+                                    {
+                                        name: 'effects',
+                                        color: '#3C704B',
+                                    },
+                                ],
+                            },
+                            {
+                                name: 'indentifier under caret',
+                                section_classes: ['row'],
+                                color: [
+                                    {
+                                        name: 'background',
+                                        color: '#344134',
+                                    },
+                                    {
+                                        name: 'error stripe mark',
+                                        color: '#036B13',
+                                    },
+                                ],
+                            },
+                            {
+                                name: 'indentifier under caret (write)',
+                                section_classes: ['row'],
+                                color: [
+                                    {
+                                        name: 'background',
+                                        color: '#40332B',
+                                    },
+                                    {
+                                        name: 'error stripe mark',
+                                        color: '#B56277',
+                                    },
+                                ],
+                            },
+                            {
+                                name: 'search result',
+                                section_classes: ['row'],
+                                color: [
+                                    {
+                                        name: 'background',
+                                        color: '#155221',
+                                    },
+                                    {
+                                        name: 'background',
+                                        color: '#00530D',
+                                    },
+                                ],
+                            },
+                            {
+                                name: 'folded text',
+                                section_classes: ['row'],
+                                color: [
+                                    {
+                                        name: 'foreground',
+                                        color: '#959595',
+                                    },
+                                    {
+                                        name: 'background',
+                                        color: '#45413A',
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                name: 'Code inspections',
+                color: [
+                    {
+                        name: 'error',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'error stripe mark',
+                                color: '#9E2927',
+                            },
+                            {
+                                name: 'effects',
+                                color: '#BC3F3C',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'warning',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'background',
+                                color: '#45413A',
+                            },
+                            {
+                                name: 'error stripe mark',
+                                color: '#BE9117',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'weak warning',
+                        section_classes: ['row'],
+                        color: [
+                        {
+                                name: 'error stripe mark',
+                                color: '#756D56',
+                            },
+                            {
+                                name: 'effects',
+                                color: '#AEAE80',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'deprecated symbol',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'effects',
+                                color: '#C3C3C3',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'deprecated symbol to remove',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'effects',
+                                color: '#BC3F3C',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'unused symbol',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name:  'foreground',
+                                color: '#727072',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'unkown symbol',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name:  'foreground',
+                                color: '#B33F3C',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'runtime problem',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name:  'error stripe',
+                                color: '#9E2927',
+                            },
+                            {
+                                name:  'effects',
+                                color: '#F49810',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'runtime problem',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name:  'error stripe',
+                                color: '#B06100',
+                            },
+                            {
+                                name:  'effects',
+                                color: '#F49810',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'duplicate from server',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name:  'background',
+                                color: '#5E5339',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'typo',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name:  'effects',
+                                color: '#659C6B',
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                name: 'diff and merge',
+                color: [
+                    {
+                        name: 'changed',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'imported',
+                                color: '#12404B',
+                            },
+                            {
+                                name: 'ignore',
+                                color: '#1C2E32',
+                            },
+                            {
+                                name: 'error stripe mark',
+                                color: '#43698D',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'conflict',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'imported',
+                                color: '#4B1515',
+                            },
+                            {
+                                name: 'ignore',
+                                color: '#321D1D',
+                            },
+                            {
+                                name: 'error stripe mark',
+                                color: '#B03435',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'deleted',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'imported',
+                                color: '#41454B',
+                            },
+                            {
+                                name: 'ignore',
+                                color: '#2E3032',
+                            },
+                            {
+                                name: 'error stripe mark',
+                                color: '#656E76',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'inserted',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'imported',
+                                color: '#294436',
+                            },
+                            {
+                                name: 'ignore',
+                                color: '#25302A',
+                            },
+                            {
+                                name: 'error stripe mark',
+                                color: '#447152',
+                            },
+                        ],
+                    }, 
+                ],
+            },
+        ];
+    </script>
+    <script src="./colorscheme.js" type="text/javascript" charset="utf-8" defer></script>
+</body>
+</html>

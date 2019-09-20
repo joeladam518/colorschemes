@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PaperColorScheme</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./colorscheme.css">
+</head>
+<body>
+    <h1>PaperColor color scheme</h1>
+    <div id="color-pallete-container" class="container"></div>
+
+    <script type="text/javascript" charset="utf-8" defer>
+        // const colorPalette1 = {
+        //     'color00' : ['#1c1c1c', '234'],
+        //     'color01' : ['#af005f', '125'],
+        //     'color02' : ['#5faf00', '70'],
+        //     'color03' : ['#d7af5f', '179'],
+        //     'color04' : ['#5fafd7', '74'],
+        //     'color05' : ['#808080', '244'],
+        //     'color06' : ['#d7875f', '173'],
+        //     'color07' : ['#d0d0d0', '252'],
+        //     'color08' : ['#585858', '240'],
+        //     'color09' : ['#5faf5f', '71'],
+        //     'color10' : ['#afd700', '148'],
+        //     'color11' : ['#af87d7', '140'],
+        //     'color12' : ['#ffaf00', '214'],
+        //     'color13' : ['#ff5faf', '205'],
+        //     'color14' : ['#00afaf', '37'],
+        //     'color15' : ['#5f8787', '66'],
+        //     'color16' : ['#5fafd7', '74'],
+        //     'color17' : ['#d7af00', '178'],
+        // };
+
+        const colorPalette = [
+            {
+                name: 'main colors',
+                color: [
+                    {
+                        name: 'black, white, gray',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color00',
+                                color: '#1c1c1c',
+                            },
+                            {
+                                name: 'color05',
+                                color: '#808080',
+                            },
+                            {
+                                name: 'color07',
+                                color: '#d0d0d0',
+                            },
+                            {
+                                name: 'color08',
+                                color: '#585858',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'red',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'monokai red',
+                                color: '#DC322C',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'green',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color02',
+                                color: '#5faf00'
+                            },
+                            {
+                                name: 'color09',
+                                color: '#5faf5f',
+                            },
+                            {
+                                name: 'color10',
+                                color: '#afd700',
+                            },
+                            {
+                                name: 'monokai green',
+                                color: '#7bd88f',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'blue',
+                        section_classes: ['row'],
+                        color: [ 
+                            {
+                                name: 'color04',
+                                color: '#5fafd7',
+                            },
+                            {
+                                name: 'monkai blue',
+                                color: '#50AFFF',
+                            },
+                            {
+                                name: 'wierd blue 1',
+                                color: '#81A2BE',
+                            },
+                            {
+                                name: 'wierd blue 2',
+                                color: '#6897BB',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'cyan',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color14',
+                                color: '#00afaf',
+                            },
+                            {
+                                name: 'color15',
+                                color: '#5f8787',
+                            },
+                            {
+                                name: 'color16',
+                                color: '#5fafd7',
+                            },
+                            {
+                                name: 'monokai cyan',
+                                color: '#78DCE8',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'pink',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color01',
+                                color: '#af005f',
+                            },
+                            {
+                                name: 'color13',
+                                color: '#ff5faf',
+                            },
+                            {
+                                name: 'monokai pink',
+                                color: '#fc618d',
+                            },
+                            {
+                                name: 'monokai redish pink',
+                                color: '#DC7878',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'yellow',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color03',
+                                color: '#d7af5f',
+                            },
+                            {
+                                name: 'color17',
+                                color: '#d7af00',
+                            },
+                            {
+                                name: 'monokai yellow',
+                                color: '#E6DA74',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'purple',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color11',
+                                color: '#af87d7',
+                            },
+                            {
+                                name: 'monokai purple',
+                                color: '#948ae3',
+                            },
+                            {
+                                name: 'monokai redish purple',
+                                color: '#9876AA',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'orange',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'color06',
+                                color: '#d7875f',
+                            },
+                            {
+                                name: 'color12',
+                                color: '#ffaf00',
+                            },
+                            {
+                                name: 'monokai orange',
+                                color: '#f59762',
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                name: 'other colors',
+                color: [
+                    {
+                        name: 'defaults',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'background',
+                                color: '#1c1c1c',
+                            },
+                            {
+                                name: 'default text',
+                                color: '#d0d0d0',
+                            },
+                            {
+                                name: 'template variable',
+                                color: '#c6c6c6',
+                            },
+                            {
+                                name: 'line number fg', 
+                                color: '#585858',
+                            },
+                            {
+                                name: 'cursorline',
+                                color: '#303030',
+                            },
+                            {
+                                name: 'vertsplit_fg',
+                                color: '#5f8787',
+                            },
+                            {
+                                name: 'statusline_active_bg',
+                                color: '#5f8787',
+                            },
+                        ],    
+                    },
+                    {
+                        name: 'comment colors',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'default',
+                                color: '#808080',
+                            },
+                            {
+                                name: 'darker default',
+                                color: '#585858',
+                            },
+                            {
+                                name: 'todo comment',
+                                color: '#ff8700'
+                            }
+                        ],    
+                    },
+                    {
+                        name: 'search',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'search_fg',
+                                color: '#000000', 
+                            },
+                            {
+                                name: 'search_bg',
+                                color: '#00875f', 
+                            },
+                            {
+                                name: 'matchparen_fg',
+                                color: '#c6c6c6', 
+                            },
+                            {
+                                name: 'matchparen_bg',
+                                color: '#4e4e4e', 
+                            },                        
+                        ],
+                    },
+                    {
+                        name: 'folded text',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'folded_fg',
+                                color: '#d787ff',
+                            },
+                            {
+                                name: 'folded_bg',
+                                color: '#5f005f',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'visual',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'visual_fg',
+                                color: '#000000', 
+                            },
+                            {
+                                name: 'visual_bg',
+                                color: '#8787af', 
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                name: 'Code inspections',
+                color: [
+                    {
+                        name: 'error',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'error_fg',
+                                color: '#9E2927',
+                            },
+                            {
+                                name: 'error_bg',
+                                color: '#5f0000',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'spelling',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'spellbad',
+                                color: '#5f0000',
+                            },
+                            {
+                                name: 'spellcap',
+                                color: '#5f005f',
+                            },
+                            {
+                                name: 'spellrare',
+                                color: '#005f00',
+                            },
+                            {
+                                name: 'spelllocal',
+                                color: '#00005f',
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                name: 'diff and merge',
+                color: [
+                    {
+                        name: 'changed',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'diffchange_fg',
+                                color: '#d0d0d0',
+                            },
+                            {
+                                name: 'diffchange_bg',
+                                color: '#005f5f',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'conflict',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'difftext_fg',
+                                color: '#5fffff',
+                            },
+                            {
+                                name: 'difftext_bg',
+                                color: '#008787',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'deleted',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'diffdelete_fg',
+                                color: '#af005f',
+                            },
+                            {
+                                name: 'diffdelete_bg',
+                                color: '#5f0000',
+                            },
+                        ],
+                    },
+                    {
+                        name: 'inserted',
+                        section_classes: ['row'],
+                        color: [
+                            {
+                                name: 'diffadd_fg',
+                                color: '#87d700',
+                            },
+                            {
+                                name: 'diffadd_bg',
+                                color: '#005f00',
+                            },
+                        ],
+                    }, 
+                ],
+            },
+        ];
+    </script>
+    <script src="./colorscheme.js" type="text/javascript" charset="utf-8" defer></script>
+</body>
+</html>
