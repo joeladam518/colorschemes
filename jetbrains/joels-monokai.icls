@@ -1,9 +1,9 @@
 <scheme name="Joels Monokai Color Scheme" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-09-29T16:11:33</property>
+    <property name="created">2019-09-29T16:26:41</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2019-09-29T16:11:54</property>
+    <property name="modified">2019-09-29T16:27:05</property>
     <property name="originalScheme">Joels Monokai Color Scheme</property>
   </metaInfo>
   <colors>
@@ -524,7 +524,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="e5e0e0" />
+        <option name="FOREGROUND" value="e5d7cd" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -535,7 +535,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="e5e5e5" />
+        <option name="FOREGROUND" value="e5e0e0" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -626,7 +626,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="e5e5e5" />
+        <option name="FOREGROUND" value="e5e0e0" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
@@ -1347,12 +1347,12 @@
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f0c8c0" />
+        <option name="FOREGROUND" value="e5d7cd" />
       </value>
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="ddd7d7" />
+        <option name="FOREGROUND" value="dcd2d2" />
         <option name="BACKGROUND" value="202020" />
       </value>
     </option>
