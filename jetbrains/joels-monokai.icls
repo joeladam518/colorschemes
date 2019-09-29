@@ -1,9 +1,9 @@
 <scheme name="Joels Monokai Color Scheme" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-09-29T16:31:01</property>
+    <property name="created">2019-09-29T16:40:11</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2019-09-29T16:31:15</property>
+    <property name="modified">2019-09-29T16:40:27</property>
     <property name="originalScheme">Joels Monokai Color Scheme</property>
   </metaInfo>
   <colors>
@@ -703,7 +703,7 @@
     </option>
     <option name="EDITORCONFIG_SPECIAL_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="efa373" />
+        <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -809,7 +809,7 @@
     </option>
     <option name="HTTP_REQUEST_MULTIPART_BOUNDARY">
       <value>
-        <option name="FOREGROUND" value="6897bb" />
+        <option name="FOREGROUND" value="d75f00" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1056,7 +1056,7 @@
     </option>
     <option name="MARKDOWN_CODE_SPAN">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FOREGROUND" value="50afff" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_1">
