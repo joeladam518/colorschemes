@@ -1,9 +1,9 @@
 <scheme name="Joels Monokai Color Scheme" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-09-29T16:29:25</property>
+    <property name="created">2019-09-29T16:31:01</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2019-09-29T16:29:39</property>
+    <property name="modified">2019-09-29T16:31:15</property>
     <property name="originalScheme">Joels Monokai Color Scheme</property>
   </metaInfo>
   <colors>
@@ -335,7 +335,7 @@
     </option>
     <option name="CSS.HASH">
       <value>
-        <option name="FOREGROUND" value="fc9867" />
+        <option name="FOREGROUND" value="dc9867" />
       </value>
     </option>
     <option name="CSS.IDENT">
