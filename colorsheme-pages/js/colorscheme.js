@@ -20,7 +20,7 @@ function drawBox(color, title = null) {
     if (color === false) {
         return '';
     }
-    
+
     let boxHtml = [];
 
     if (is_dark(color)) {
@@ -41,7 +41,7 @@ function drawBox(color, title = null) {
 
 function traverseColorPallete(colorPalette, classes = []) {
     let html = '';
-    let section_classes = 'section'; 
+    let section_classes = 'section';
 
     if (classes.length) {
         section_classes += ' ' + classes.join(' ');
@@ -57,7 +57,7 @@ function traverseColorPallete(colorPalette, classes = []) {
             if (row.hasOwnProperty('section_classes') && row.section_classes instanceof Array) {
                 html += traverseColorPallete(row.color, row.section_classes);
             } else {
-                html += traverseColorPallete(row.color, row.section_classes);
+                html += traverseColorPallete(row.color);
             }
         }
     }
