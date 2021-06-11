@@ -1,9 +1,9 @@
 <scheme name="Joels Monokai Color Scheme" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-09-29T19:06:02</property>
+    <property name="created">2021-06-10T22:47:20</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2019-09-29T19:06:15</property>
+    <property name="ideVersion">2021.1.3.0.0</property>
+    <property name="modified">2021-06-10T22:47:35</property>
     <property name="originalScheme">Joels Monokai Color Scheme</property>
   </metaInfo>
   <colors>
@@ -22,6 +22,7 @@
     <option name="DIAGRAM_NOTE_BORDER" value="707375" />
     <option name="DIAGRAM_REALIZATION_EDGE" value="609350" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="151515" />
+    <option name="DOCUMENTATION_COLOR" value="4b4d4d" />
     <option name="FILESTATUS_ADDED" value="c3e88d" />
     <option name="FILESTATUS_COPIED" value="c3e88d" />
     <option name="FILESTATUS_DELETED" value="808080" />
@@ -57,12 +58,13 @@
     <option name="RIGHT_MARGIN_COLOR" value="4d4d4d" />
     <option name="SELECTED_INDENT_GUIDE" value="505050" />
     <option name="SELECTED_TEARLINE_COLOR" value="676767" />
-    <option name="SELECTION_BACKGROUND" value="371d26" />
+    <option name="SELECTION_BACKGROUND" value="4b313a" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SEPARATOR_BELOW_COLOR" value="393a3c" />
     <option name="ScrollBar.hoverThumbColor" value="75737147" />
     <option name="ScrollBar.thumbColor" value="75737133" />
     <option name="TEARLINE_COLOR" value="444444" />
+    <option name="TOOLTIP" value="4b4d4d" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="464c43" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="444342" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="41444a" />
@@ -111,7 +113,7 @@
         <option name="FOREGROUND" value="96e1eb" />
       </value>
     </option>
-    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="BASH.FUNCTION_CALL" baseAttributes="" />
     <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="BASH.HERE_DOC">
       <value>
@@ -128,7 +130,7 @@
         <option name="FOREGROUND" value="f0b070" />
       </value>
     </option>
-    <option name="BASH.INTERNAL_COMMAND" baseAttributes="BASH.EXTERNAL_COMMAND" />
+    <option name="BASH.INTERNAL_COMMAND" baseAttributes="" />
     <option name="BASH.REDIRECTION">
       <value>
         <option name="FOREGROUND" value="bab6c0" />
@@ -832,7 +834,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="344134" />
+        <option name="BACKGROUND" value="4b4d4d" />
         <option name="ERROR_STRIPE_COLOR" value="36b13" />
       </value>
     </option>
@@ -896,6 +898,12 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="1b1b20" />
+      </value>
+    </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="1f1f1f" />
+        <option name="BACKGROUND" value="b5b5b5" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -1183,7 +1191,6 @@
     <option name="PHP.THIS_SELF">
       <value>
         <option name="FOREGROUND" value="a0a0a0" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
