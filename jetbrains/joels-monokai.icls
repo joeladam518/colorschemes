@@ -2,9 +2,9 @@
   <metaInfo>
     <property name="created">2022-03-05T13:46:41</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2021.3.0.0</property>
-    <property name="modified">2022-03-05T13:47:09</property>
     <property name="originalScheme">Joels Monokai Color Scheme</property>
+    <property name="ideVersion">2022.1.0.0</property>
+    <property name="modified">2022-05-15T14:35:59</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="384c38" />
@@ -1443,6 +1443,11 @@
       <value>
         <option name="FOREGROUND" value="f56a8b" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
