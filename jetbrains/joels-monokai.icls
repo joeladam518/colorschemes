@@ -3,7 +3,7 @@
     <property name="created">2022-03-05T13:46:41</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2022.1.2.0.0</property>
-    <property name="modified">2022-06-11T02:08:57</property>
+    <property name="modified">2022-06-20T20:44:19</property>
     <property name="originalScheme">Joels Monokai Color Scheme</property>
   </metaInfo>
   <colors>
@@ -1399,6 +1399,11 @@
         <option name="FOREGROUND" value="e5d7cd" />
       </value>
     </option>
+    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+      <value>
+        <option name="BACKGROUND" value="202d0f" />
+      </value>
+    </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
@@ -1521,6 +1526,11 @@
     <option name="YAML_ANCHOR">
       <value>
         <option name="FOREGROUND" value="fd9353" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="6eaf5f" />
       </value>
     </option>
   </attributes>
