@@ -1216,13 +1216,21 @@
     </option>
     <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_TAG">
+      <value>
+        <option name="FOREGROUND" value="fc9867" />
+      </value>
+    </option>
+    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PHP_VAR_VAR">
+      <value>
+        <option name="FOREGROUND" value="dc9867" />
+      </value>
+    </option>
     <option name="PY.ANNOTATION">
       <value>
         <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="PHP_VAR_VAR">
     <option name="PY.BUILTIN_NAME">
       <value>
         <option name="FOREGROUND" value="8fdc8f" />
@@ -1566,6 +1574,16 @@
     <option name="YAML_ANCHOR">
       <value>
         <option name="FOREGROUND" value="fd9353" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="fc618d" />
+      </value>
+    </option>
+    <option name="org.rust.UNSAFE_CODE">
+      <value>
+        <option name="BACKGROUND" value="281e1e" />
       </value>
     </option>
     <option name="org.rust.MACRO">
