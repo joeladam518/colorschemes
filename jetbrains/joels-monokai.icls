@@ -1,4 +1,7 @@
-<scheme name="Joels Monokai Color Scheme" version="142" parent_scheme="Dark">
+<scheme name="Joels Monokai" version="142" parent_scheme="Dark">
+  <metaInfo>
+    <property name="originalScheme">Joels Monokai</property>
+  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="384C38" />
     <option name="ANNOTATIONS_COLOR" value="8B999F" />
@@ -884,11 +887,15 @@
         <option name="FOREGROUND" value="78dce8" />
       </value>
     </option>
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="999999" />
       </value>
     </option>
+    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HTTP_HEADER_FIELD_NAME">
       <value>
         <option name="FOREGROUND" value="78dce8" />
