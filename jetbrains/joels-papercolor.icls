@@ -1,4 +1,4 @@
-<scheme name="Joels Paper Color Scheme" version="142" parent_scheme="Default">
+<scheme name="Joels Paper Color Scheme" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2019-09-21T01:45:31</property>
     <property name="ide">PhpStorm</property>
