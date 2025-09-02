@@ -1078,6 +1078,7 @@
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.NULL_UNDEFINED">
       <value>
@@ -1241,6 +1242,12 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    </option>
+    <option name="MATCHED_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="ffef28" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
     <option name="NG.BANANA_BINDING_ATTR_NAME">
       <value>
         <option name="FOREGROUND" value="f0b070" />
@@ -1724,14 +1731,28 @@
         <option name="FOREGROUND" value="b33f3c" />
       </value>
     </option>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="fc618d" />
+        <option name="FOREGROUND" value="999999" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="a0a0a0" />
+        <option name="FOREGROUND" value="999999" />
+      </value>
+    </option>
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="fc618d" />
+      </value>
+    </option>
+    </option>
+    <option name="XML_TAG_DATA">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
       </value>
     </option>
     <option name="YAML_ANCHOR">
